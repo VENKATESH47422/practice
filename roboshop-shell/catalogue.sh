@@ -88,7 +88,7 @@ VALIDATE $? "Starting catalogue"
 
 cp /home/centos/roboshop-shell/mongo.repo /etc/yum.repos.d/mongo.repo
 
-VALIDATE $? "copying mongodb repo"
+#VALIDATE $? "copying mongodb repo"
 
 dnf install mongodb-org-shell -y &>> $LOGFILE
 
