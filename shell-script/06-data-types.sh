@@ -7,4 +7,4 @@ number2=$2
 SUM=$((number1+number2))
 
 echo " adding two numbers "
-echo " SUM "
+echo " $SUM "
