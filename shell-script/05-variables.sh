@@ -1,11 +1,10 @@
 #!/bin/bash
 
-echo " enter yoour name "
+echo "Please enter your username:: "
 
-read -s USERNAME
+read -s USERNAME #the value entered above will be automatically atteched to USERNAME variable
 
-echo " enter your password "
-
+echo "Please enter your Password:: "
 read -s PASSWORD
 
-echo " name is $USERNAME & passsword is $PASSWORD " 
+echo "Username is: $USERNAME, Password is: $PASSWORD" # I am priting just for validation, you should not print username and passwords in scripts
