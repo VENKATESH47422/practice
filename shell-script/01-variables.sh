@@ -1,8 +1,10 @@
 #!/bin/bash
 
+$PERSON1 = raju
+$PERSON2 = ravi
 echo "
 
-raju : hi ravi, how are u
-ravi : i am fine raju, what about you
-raju : i am good, ravi shall we go movie
-ravi : yeah raju, i will come. "
+$PERSON1 : hi $PERSON2, how are u
+$PERSON2 : i am fine $PERSON1, what about you
+$PERSON1 : i am good, $PERSON2 shall we go movie
+$PERSON2 : yeah $PERSON1, i will come. "
