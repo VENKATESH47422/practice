@@ -27,3 +27,7 @@ VALIDATE $? "Installing MySQL"
 yum install git -y
 
 VALIDATE $? "Installing GIT"
+
+yum install nginx -y
+
+VALIDATe $? "Installing Nginx"
