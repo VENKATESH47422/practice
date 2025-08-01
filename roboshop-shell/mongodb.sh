@@ -6,3 +6,7 @@ R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
+
+LOGFILE="/tmp/$0-$TIMESTAMP.log"
+
+echo "Script started executing at $TIMESTAMP" &>> $LOGFILE
