@@ -6,5 +6,7 @@ number1=$1
 number2=$2
 SUM=$((number1+number2))
 
-echo " adding two numbers "
-echo " $SUM "
+echo "Total:: $SUM"
+echo "how many args passed:: $#"
+echo "all args are passed:: $@"
+echo "script name:: #0"
