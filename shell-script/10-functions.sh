@@ -30,4 +30,4 @@ VALIDATE $? "Installing GIT"
 
 yum install nginx -y
 
-VALIDATe $? "Installing Nginx"
+VALIDATE $? "Installing Nginx"
