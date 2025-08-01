@@ -2,4 +2,4 @@
 
 DATE=(date)
 
-echo" TODAY DATE = ($DATE) 
+echo " TODAY DATE = ($DATE) "
