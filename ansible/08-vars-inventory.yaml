@@ -1,0 +1,6 @@
+- name: variables
+  hosts: localhost
+  tasks: 
+  - name: Printing using variables
+    ansible.builtin.debug:
+      msg: "I am Watching {{Movie}}, Acted by {{Hero}} & Directed by {{Director}}"
