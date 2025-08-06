@@ -1,4 +1,4 @@
-#Play Level VAriables
+# TAsK Level VAriables
 - name: variables
   hosts: localhost
   vars:
@@ -7,5 +7,7 @@
     Director: "Neel"
   tasks: 
   - name: Printing using variables
+    vars: 
+      Movie: "SALAAR-2"
     ansible.builtin.debug:
       msg: "I am Watching {{Movie}}, Acted by {{Hero}} & Directed by {{Director}}"
