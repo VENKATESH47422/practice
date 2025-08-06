@@ -1,0 +1,10 @@
+- name: variables
+  hosts: localhost
+  vars:
+    Movie: "SALAAR"
+    Hero: "Prabhas"
+    Director: "Neel"
+  tasks: 
+  - name: Printing using variables
+    ansible.builtin.debug:
+      msg: "I am Watching {{Movie}}, Acted by {{Hero}} & Directed by {{Director}}"
