@@ -1,0 +1,8 @@
+- name: conditions
+  hosts: localhost
+  become: yes
+  tasks:
+  - name: checking roboshop user exist or not
+    ansible.builtin.command: id roboshop
+    register: user
+    
