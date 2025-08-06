@@ -18,4 +18,4 @@
   - name: crete user
     ansible.builtin.user:
       name: roboshop
-    when: user.rc !=0
+    when: venky.rc !=0
